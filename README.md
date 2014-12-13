@@ -1,7 +1,9 @@
 InstantQueue for Youtube
 =============
 
-Quick playlist extension for Youtube
+Instant playlist extension for Youtube
+
+![](http://i.imgur.com/gNhTzCd.gif)
 
 ### What is it?
 
