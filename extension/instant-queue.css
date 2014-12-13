@@ -1,0 +1,130 @@
+#iqy-main, #iqy-main * {
+  box-sizing: border-box;
+}
+
+#iqy-main {
+  display: block;
+  position: fixed;
+  right: -380px;
+  top: 20%;
+  width: 410px;
+  height: 600px;
+
+  z-index: 99;
+  background: white;
+  overflow-x: hidden;
+
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+
+  transition-property: right;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: .1s;
+}
+
+#iqy-main.show, #iqy-main:hover {
+  right: 0px;
+}
+
+#iqy-handle {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  background: #bb161b;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+}
+
+#iqy-videos {
+  position: absolute;
+  display: inline-block;
+  width: 370px;
+  right: 0px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+#iqy-controls {
+  height: 40px;
+}
+
+#iqy-video-list {
+  overflow: auto;
+  height: 540px;
+}
+
+#iqy-video-list > li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#iqy-video-list > li .iqy-removevid {
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  display: none;
+}
+
+#iqy-video-list > li:hover .iqy-removevid {
+  display: inline-block;
+}
+
+#iqy-video-list > li.iqy-current-video h4.iqy-list-title {
+  color: #bb161b;
+}
+
+div.iqy-list-info {
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+img.iqy-list-image {
+  display: inline-block;
+  width: 120px;
+  height: 67px;
+}
+
+h4.iqy-list-title {
+  height: 34px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+#iqy-videos #iqy-placeholder {
+  font-size: 24px;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+#iqy-videos #iqy-placeholder img {
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#iqy-videos #iqy-placeholder h4 {
+  opacity: .3;
+  margin-top: 50px;
+}
+
+#iqy-controls #iqy-btnicon {
+  margin-top: -2px;
+  height: 10px;
+}
+
+#iqy-controls .yt-uix-button {
+  margin-right: 10px;
+}
+
+#iqy-controls .yt-uix-button span {
+  margin-left: 8px;
+}
