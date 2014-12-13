@@ -16,11 +16,11 @@ It is the quickest way to watch a bunch of videos on Youtube without the hassle 
 
 ### Installation
 
-// Chrome store link goes here...
+You can install [from Chrome Webstore](https://chrome.google.com/webstore/detail/instantqueue-for-youtube/pcbfkaibdlhhihdijcodacddmgflalnm)
 
 ### Getting started
 
-If you want, watch this short demo video that introduces you to everything you need to know (which is not much!)
+If you want, watch this [short demo video](https://www.youtube.com/watch?v=3dRQBSLIi0I) that introduces you to everything you need to know (which is not much!)
 
 Basically:
 - You can add videos to your list by dragging-and-dropping them on to IQ the drawer on right-side of the screen.
